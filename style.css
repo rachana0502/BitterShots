@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap');
+.common-width{
+    margin: 0 auto !important;
+    width: 1150px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.banner1{
+    background-image: url(Images/banner-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.banner1 .row{
+    padding-top: 130px;
+}
+.bottleImg{
+    /* height: 500px; */
+    width: 350px;
+}
+.hash{
+    color: #fff;
+    font-size: 26px !important;
+    font-weight: 600;
+}
+.banner1 .txt{
+    font-size: 80px;
+    font-weight: 700;
+    font-style: italic;
+    color: #ffe800;
+}
+.banner1 .txt1{
+    color: #ffe800;
+    font-size: 32px;
+    font-weight: 400; 
+    margin-top: -30px;
+}
+.banner1 .txt2{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+}
+.banner1 .txt3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.amazonImg {
+    width: 120px;
+    margin-left: 20px;
+}
+.flipkartImg{
+    width: 120px;
+}
+.middle-cnt{
+    text-align: justify;
+    padding-top: 80px;
+    margin-left: 90px;
+}
+.offerImg{
+    width: 250px;
+    padding-top: 90px;
+}
+.banner2{
+    /* padding: 3% 0 3%; */
+    padding-top: 100px;
+
+    height: max-content;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+.banner2 .girl{
+    background-image: url(Images/girlpng.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 700px auto;
+    min-height: 100vh;
+    margin-top: 130px;
+}
+.banner2 .para{
+    font-size: 35px;
+    font-weight: 700;
+    color: #868689;
+    margin-top: -100px !important;
+}
+.banner2 .para1{
+    font-size: 21px !important;
+    color:#868689;
+    /* padding-top: 30px !important; */
+}
+.banner2 i{
+    color: #aa0023;
+}
+/* .banner2 .left-cnt{
+    padding-left: 90px;
+        
+} */
+.banner2 .right-cnt{
+    margin-top: -150px;
+}
+.bagImg{
+    width: 400px;
+    margin-left: -90px;
+}
+/* .contact{
+    padding-left: 90px !important;
+} */
+.banner2 .para2{
+    color:#868689;
+    font-size: 40px;
+}
+.banner2 .para2span{
+    color: #aa0023;
+}
+.banner2 form{
+        gap: 3rem;
+        display: flex;
+}
+.banner2 .input1{
+    width: 35%;
+    padding: 10px;
+    background-color: #dae0e6;
+    border: 1px solid #dae0e6;
+    border-radius: 5px;
+}
+.banner2 .input2{
+    width: 20%;
+    padding: 10px;
+    background-color: #dae0e6;
+    border: 1px solid #dae0e6;
+    border-radius: 5px;
+}
+.banner2 button{
+    padding: 5px;
+    width: 100px;
+    font-size: 18px;
+    background-color: #aa0023;
+    color:#fff ;
+    border-radius: 5px;
+}
+.banner2 .para3{
+    font-size: 38px;
+    text-align: center;
+    color: #868689;
+    margin-top: 40px;
+}
+.cards{
+    padding-left: 20px;
+}
+.card{
+    margin: 10px 20px;
+    width:  300px !important;
+    padding: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.banner2 .line1{
+    color: #aa0023;
+    font-size: 24px;
+    margin-top: -35px;
+}
+.banner2 .line2{
+    color: #93a2b6;
+    font-size: 17px;
+    margin-top: -10px;
+    font-weight: bold;
+    font-weight: 500;
+    /* text-align: justify; */
+}
+.cardImg{
+    width: 150px;
+    margin-left: 10%;
+}
+.banner3 .para1{
+    font-size: 35px;
+    color: #868689;
+    margin-top: 30px;
+}
+.banner3 b{
+    color: #aa0023;
+}
+.banner3 .first{
+    margin-bottom: 60px !important;
+}
+.steps{
+    background-image: url(Images/faq-centercan.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: -70px !important;
+    /* position: relative; */
+}
+.safety{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* position: relative; */
+}
+.safety1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    left: 80px;
+
+}
+.safety2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+
+}
+.safety3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    right: 60px;  
+}
+.safety4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    right: 60px;
+}
+.safe1{
+    font-size: 18px;
+    color: #868689;
+    font-weight: 500;
+}
+.safeImg{
+    width: 80px;
+    /* position: relative;
+    top: 30px;
+    left: 95px; */
+
+}
+.banner4 .para1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -5px
+}
+.accordion-item{
+    width: 80%;
+    /* margin-left: 120px; */
+
+    
+}
+.accordion {
+    --bs-accordion-active-color: black; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.accordion-button{
+    font-size: 18px !important;
+    color: #555555 !important;
+    font-weight: bold;
+    background-color: #f0f0f0 !important;
+    padding: 25px !important;
+    border-radius:unset !important;
+}
+
+/* .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+} */
+
+.accordion-item{
+    margin: 8px;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color:unset !important;
+    outline: 0;
+    box-shadow:unset !important;
+}
+.accordion {
+    --bs-accordion-border-color: #f0f0f0 ;
+    --bs-accordion-border-radius:0px;
+    --bs-accordion-inner-border-radius: 0px;
+     --bs-accordion-border-radius: unset !important;
+ 
+}
+.banner4 .para2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+.banner4 .para2 span , .banner4 .para3 span{
+    color: #aa0023;
+    font-weight: 500;
+}
+.banner4 .para3{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer{
+    background-color: #000000;
+    min-height: 50vh;
+    color: #ffffff;
+    margin-top: 10px;
+    justify-content: end;
+}
+.footer .line1{
+    color: #868689!important;
+    font-size: 16px;
+}
+.foot{
+    padding-top: 80px;
+    font-size: 19px;
+}
+.foot .padd{
+    padding-top: 15px;
+}
+/* .swiper{
+    width: 30%;
+    height: fit-content;
+  }
+.swiper .swiper-pagination-bullet-active{
+    background-color: #fff;
+  }
+.swiper-button-next , .swiper-button-prev{
+    position: absolute;
+    top: 1700px !important;
+    margin: 100px;
+} */
+
+@media only screen and (max-width: 600px){
+    .common-width {
+        width: auto;
+        margin: unset !important;
+    }
+    .desktopview{
+        display: none;
+    }
+    .mobview .mobbanner1{
+        margin-left: 20px !important;
+
+    }
+    .hash{
+        color: #fff;
+        font-size: 16px !important;
+        font-weight: 600;
+        margin-top: -10px;
+    }
+    .banner1 .txt{
+        font-size: 51px;
+        font-weight: 700;
+        font-style: italic;
+        color: #ffe800;
+    }
+    .banner1 .txt1{
+        color: #ffe800;
+        font-size: 23px;
+        font-weight: 500; 
+        margin-top: -30px;
+    }
+    .banner1 .txt2{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .banner1 .txt3{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        /* margin-left: -70px; */
+    }
+    .amazonImg {
+        width: 90px;
+        margin-left: 10px;
+    }
+    .flipkartImg{
+        width: 90px;
+    }
+    .offerImg {
+        width: 120px;
+        margin-top: -50px;
+        /* padding-top: 90px; */
+    }
+    .bottleImg {
+        /* height: 500px; */
+        width: 180px;
+        
+    }
+    .banner1 .row {
+        padding-top: 70px;
+        margin: 0;
+    }
+    .bottom-cnt{
+        display: flex;
+    }
+    .banner3{
+        display: none;
+    }
+    .bagImg {
+        width: 280px;
+        margin-top: 133px;
+        margin-left: 18px;
+    }
+    .banner2 .para {
+        font-size: 30px;
+        font-weight: 700;
+        color: #868689;
+        margin-top: -100px !important;
+    }
+    .banner2 .para1 {
+        font-size: 17px !important;
+        text-align: justify;
+        color: #868689;
+        /* padding-top: 30px !important; */
+    }
+    .banner2 .left-cnt .para1 br{
+        display: none;
+    }
+    .banner2 .left-cnt{
+        margin-top: -100px;
+        /* margin-left: 10px; */
+        padding-left: 24px;
+    }
+    .banner2 .para2 {
+        /* color: #868689; */
+        font-size: 25px;
+        margin-top: 20px;
+        margin: 20px 11px -5px 100px !important;
+    }
+    .banner2 form {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .banner2 input,button{
+        width: 100% !important;
+    }
+    .accordion-body {
+        padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .banner4 .para1 {
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 23px;
+    }
+    .accordion-button {
+        font-size: 14px !important;
+        color: #555555 !important;
+        font-weight: bold;
+        background-color: #f0f0f0 !important;
+        padding: 12px !important;
+        border-radius: unset !important;
+    }
+    .banner4 .para2 br{
+        display: none;
+    }
+    .banner4 .para2 {
+        font-size: 21px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .banner4 .para3 {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .foot {
+        padding-top: 44px;
+        padding: 40px 0px 10px 20px;
+        font-size: 19px;
+    }
+    .footer p{
+            font-size: 16px;
+    }
+    .ban3{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .ban3Img{
+        width: 280px;
+        margin-left: 60px;
+    }
+    .saf{
+        display: flex;
+        /* padding: 20px; */
+    }
+    .point{
+        padding: 20px;
+    }
+    .point p{
+        text-align: justify;
+    }
+    .point img{
+        height: 80px;
+    }
+    .saf .one{
+        margin-top: 15px;
+    }
+    .bitter{
+        font-size: 24px;
+        color: #868689;
+    }
+    .bitter i{
+        color: #aa0023;
+    }
+    .banner2 .para3 {
+        font-size: 26px;
+    }
+
+
+    /* .owl-carousel .owl-nav button.owl-prev{
+        display: none;
+    }
+    
+    .owl-carousel .owl-nav button.owl-next{
+        display: none;
+    } */
+    .card{
+        width: 270px !important;
+        padding: 55px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        position: relative !important;
+        top: -280px;
+        left: -176px !important;
+        background: unset !important;
+        font-size: 48px !important;
+        color: #aa0023 !important;
+        /* width: 10% !important; */
+    }
+    
+    .owl-carousel .owl-nav button.owl-next{
+        position: relative !important;
+        top: -364px !important;
+        left: 146px !important;
+        background: unset !important;
+        font-size: 48px !important;
+        color: #aa0023 !important;
+        width: 10% !important;
+    }
+    /* .bor{
+        margin-top: -30px !important;
+    } */
+
+    .owl-carousel {
+        display: none;
+        width: 100%;
+        z-index: 1;
+        height: 500px;
+    }
+    .banner2 .girl {
+        background-image: unset;
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 900px){
+    .mobview{
+        display: none;
+    }
+    .banner-mobview{
+        display: none;
+    }
+
+}  
+
+
+.owl-carousel .owl-item img {
+    display: block;
+    width:150px !important;
+}
+
+
+.owl-carousel .owl-nav button.owl-prev{
+    position: relative;
+    top: -280px;
+    left: -516px;
+    background: unset !important;
+    font-size: 48px !important;
+    color: #aa0023 !important;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: relative;
+    top: -280px;
+    left: 490px;
+    background: unset !important;
+    font-size: 48px !important;
+    color: #aa0023 !important;
+}
